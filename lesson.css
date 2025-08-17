@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url(sawir.webp);
+    background-position: cover;
+    background-size: cover;
+    font-size: Arial,Helvetica,sans,serif;
+
+}
+.navbar{
+    background: rgb(56, 62, 56);
+    text-align: center;
+
+
+}
+.navbar ul{
+    display: inline-flex;
+    list-style-type: none;
+    color: #fff;
+
+}
+.navbar ul li{
+    width: 120px;
+    padding: 15px;
+    margin: 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar ul li:hover{
+    background: #333632;
+    border-radius: 3px;
+}
+.navbar-1{
+    display: none;
+
+}
+.navbar ul li:hover .navbar-1{
+    display: block;
+    margin-top: 15px;
+    margin-left: -15px;
+    background: rgb(67, 77, 67);
+    position: absolute;
+}
+.navbar ul li:hover .navbar-1 ul{
+    display: block;
+    margin: 10px;
+
+}
+.navbar ul li:hover .navbar-1 ul li{
+    width:150px;
+    padding: 1opx;
+    background:transparent;
+    border-bottom: 1px dotted  #fff;
+    text-align: left;
+    border-radius: 0;
+
+}
+.navbar ul li:hover .navbar-1 ul li:last-child{
+    border-bottom: none;
+
+}
+.navbar ul li:hover .navbar-1 ul li a:hover{
+    color: #2b3429;
+
+}
+.sub-menu-2{
+    display: none;
+}
+.hover-me:hover .sub-menu-2{
+    position: absolute;
+    display: block;
+    margin-top: 40px;
+    margin-left: 140px;
+    background: rgb(56, 62, 56);
+
+}
